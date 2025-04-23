@@ -1,0 +1,254 @@
+#icon-nav {
+  color: #A9D6CB;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding-inline: 160px;
+}
+header .logo {
+  font-size: 36px;
+  font-weight: bold;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 56px;
+}
+header nav ul li a {
+  font-size: 18px;
+  text-decoration: none;
+}
+header nav ul li #dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+header #buttons-1 {
+  display: flex;
+  gap: 32px;
+  padding-left: 250px;
+}
+header #buttons-1 img {
+  height: 32px;
+  width: 32px;
+}
+header #buttons-2 {
+  display: flex;
+  gap: 32px;
+}
+header #buttons-2 a:nth-child(1) {
+  font-size: 18px;
+  line-height: 40px;
+  padding: 8px;
+}
+header #buttons-2 a:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 149px;
+  height: 60px;
+  font-size: 18px;
+  color: white;
+  background-color: #264065;
+  padding: 8px;
+  border-radius: 32px;
+  text-decoration: none;
+}
+
+.hero-1 {
+  position: absolute;
+  top: 59px;
+  left: 361px;
+  width: 1639px;
+  height: 1229px;
+  z-index: 3;
+}
+
+.hero-2 {
+  position: absolute;
+  top: 49px;
+  left: 1165px;
+  width: 567px;
+  height: 567px;
+  z-index: 1;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: row;
+  height: 880px;
+}
+#main-container .section-1 {
+  background-color: #FAF8F5;
+  width: 1285px;
+  padding-inline: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 320px;
+}
+#main-container .section-1 .hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 72%;
+  gap: 32px;
+  padding-bottom: 120px;
+}
+#main-container .section-1 .hero-text h1 {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+  color: #264065;
+}
+#main-container .section-1 .hero-text p {
+  font-size: 24px;
+  line-height: 40px;
+  color: #909090;
+}
+#main-container .section-1 .hero-text .hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+#main-container .section-1 .hero-text .hero-buttons #booking {
+  background-color: #264065;
+  color: white;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 32px;
+  gap: 8px;
+  width: 149px;
+  height: 60px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main-container .section-1 .hero-text .hero-buttons #play-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+#main-container .section-1 .hero-text .hero-buttons #play-video img {
+  background-color: #FAF8F5;
+}
+#main-container .section-1 .hero-text .hero-buttons #play-video p {
+  font-size: 18px;
+  line-height: 40px;
+  padding: 8px;
+  color: #264065;
+  font-weight: regular;
+}
+#main-container .section-1 .hero-icons-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 72px;
+  width: 634px;
+  padding: 32px;
+  background-color: #FFFFFF;
+}
+#main-container .section-1 .hero-icons-container .hero-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+#main-container .section-1 .hero-icons-container .hero-icons img {
+  width: 56px;
+  height: 56px;
+}
+#main-container .section-1 .hero-icons-container .hero-icons h3 {
+  font-size: 36px;
+  line-height: auto;
+  color: #264065;
+  font-weight: 100;
+}
+#main-container .section-1 .hero-icons-container .hero-icons p {
+  font-size: 18px;
+  line-height: 40px;
+  color: #909090;
+  line-height: 24px;
+  text-align: center;
+}
+#main-container .section-2 {
+  background-color: #A9D6CB;
+  width: 635px;
+  padding-inline: 160px;
+}
+#main-container .section-2 .testimony-1 {
+  position: relative;
+  top: 435px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 24px;
+  gap: 8px;
+  width: 405px;
+}
+#main-container .section-2 .testimony-1 img {
+  width: 32px;
+  height: 21px;
+}
+#main-container .section-2 .testimony-1 p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #070d15;
+}
+#main-container .section-2 .testimony-1 h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#main-container .section-2 .testimony-2 {
+  position: relative;
+  top: 600px;
+  left: -150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 24px;
+  gap: 8px;
+  width: 405px;
+}
+#main-container .section-2 .testimony-2 img {
+  width: 32px;
+  height: 21px;
+}
+#main-container .section-2 .testimony-2 p {
+  font-size: 18px;
+  line-height: auto;
+  color: #070d15;
+}
+#main-container .section-2 .testimony-2 h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+* {
+  color: #264065;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=index.css.map */
